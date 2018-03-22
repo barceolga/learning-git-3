@@ -122,8 +122,16 @@ body {
 
 .main {
   width: 100%;
-  background-color: #ffdab3; }
+  background-color: #ffdab3;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
+.main .container {
+  width: 900px;
+  height: auto; }
 .main .col-6 {
   display: flex;
   -webkit-flex-direction: column;
@@ -133,7 +141,7 @@ body {
 .main .main_text {
   border: 10px solid #000080;
   background-color: #e68a00;
-  width: 50%;
+  width: 85%;
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -144,7 +152,8 @@ body {
   font-weight: 400;
   font-style: italic;
   text-align: left;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 10px; }
 .main .main_video {
   margin-top: 50px; }
 
