@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin-ext");
 body {
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 .jumbotron {
   width: 100%;
@@ -29,5 +30,15 @@ body {
   font-style: italic;
   font-weight: 500;
   text-transform: uppercase; }
+
+.main {
+  width: 100%;
+  background-color: #ffdab3; }
+
+.main .main_text {
+  border: 10px solid #000080;
+  background-color: #e68a00;
+  width: 33.33%;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */
