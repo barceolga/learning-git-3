@@ -123,10 +123,28 @@ body {
   width: 100%;
   background-color: #ffdab3; }
 
+.main .col-6 {
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 .main .main_text {
   border: 10px solid #000080;
   background-color: #e68a00;
-  width: 33.33%;
-  height: auto; }
+  width: 50%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+.main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #001a1a;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  padding: 10px; }
+.main .main_video {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
