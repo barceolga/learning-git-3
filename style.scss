@@ -219,6 +219,16 @@ body {
     }
 
     .main_gallery {
+      margin-top: 50px;
+      display: flex;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .main_gallery {
       .row {
         width: 100%;
         @include clearfix;
@@ -230,7 +240,7 @@ body {
       }
 
       img {
-        width: 50%;
+        width: 100%;
         height: 250px;
         object-fit: cover;
       }
