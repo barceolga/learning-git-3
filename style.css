@@ -112,13 +112,13 @@ body {
   text-transform: capitalize;
   text-shadow: 1px 2px 2px #660066; }
 .jumbotron h2 {
-  color: #ff8c1a;
+  color: #000080;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-style: italic;
   font-weight: 500;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px #000080; }
+  text-shadow: 1px 1px 1px #ff8c1a; }
 
 .main {
   width: 100%;
@@ -130,8 +130,7 @@ body {
   align-items: center; }
 
 .main .container {
-  width: 900px;
-  height: auto; }
+  width: 1000px; }
 .main .col-6 {
   display: flex;
   -webkit-flex-direction: column;
@@ -154,6 +153,10 @@ body {
   text-align: left;
   padding: 10px;
   margin-bottom: 10px; }
+.main p::first-letter {
+  color: #004d4d;
+  font-size: 36px;
+  font-weight: 8800; }
 .main .main_video {
   margin-top: 50px; }
 
