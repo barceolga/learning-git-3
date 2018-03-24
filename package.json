@@ -1,0 +1,16 @@
+{
+  "name": "7.5_NPM_start_pracy_w_projekcie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser": "^0.2.6",
+    "browser-sync": "^2.23.6"
+  }
+}
