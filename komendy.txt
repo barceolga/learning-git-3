@@ -1,0 +1,7 @@
+
+Komenda do czytania z pliku style.css i zapisywania wyniku do pliku style.prefixed.css (autoprefixer-cli):
+	node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css
+
+Komenda do wyswietlania listy bledow we wszystkich plikach html (nu-html-checker)
+
+	node_modules/.bin/nu-html-checker checker.validate(*.html)
