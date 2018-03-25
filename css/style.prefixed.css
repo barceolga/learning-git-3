@@ -108,27 +108,14 @@
   margin-left: 91.66%;
 }
 
-.first_icons {
-  width: 900px;
-  margin: 100px auto 100px auto;
-  text-align: center;
-}
-
 body {
   margin: 0;
   box-sizing: border-box;
 }
 
-.test {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .jumbotron {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-image: url(https://images.pexels.com/photos/417239/pexels-photo-417239.jpeg?auto=compress&cs=tinysrgb&h=350);
   background-size: cover;
   background-repeat: no-repeat;
