@@ -134,6 +134,13 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   text-shadow: 1px 2px 2px #660066;
+  margin-top: -50px;
+  cursor: pointer;
+  transition: 1s linear;
+}
+
+.jumbotron h1:hover {
+  color: #330000;
 }
 
 .jumbotron h2 {
@@ -224,10 +231,65 @@ body {
 }
 
 .main .main_gallery img {
-  width: 100%;
-  height: 250px;
+  width: calc(100% - 10px);
+  height: 240px;
   object-fit: cover;
   border: 5px solid #e68a00;
+  cursor: pointer;
+  transition: 1.5s ease-in-out;
+}
+
+.main .main_gallery img:hover {
+  border-color: #800000;
+  border-radius: 25%;
+  filter: grayscale(90%);
+}
+
+.main .main_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .main_links .main_links_title h2 {
+  color: #ff0000;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px #ff8c1a;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.main .main_links .main_links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main .main_links li {
+  margin-top: 20px;
+}
+
+.main .main_links a {
+  text-decoration: none;
+  color: #000080;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+.main .main_links a:hover {
+  color: #004d4d;
+}
+
+.main .main_links a:active {
+  text-decoration: underline;
 }
 
 .footer {
